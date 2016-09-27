@@ -28,6 +28,8 @@
 	<script type="text/javascript" src="js/jquery.ui.mouse.js"></script>
 	<script type="text/javascript" src="js/jquery.ui.slider.js"></script>
 	<script type="text/javascript" src="js/jquery.inputmask.js"></script>
+	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/jquery.dotdotdot.js"></script>
 		<script type="text/javascript" src="js/typeahead.js"></script>
 		
 	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
@@ -35,7 +37,7 @@
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body class="cart-page basket">
-	<header id="header">
+	<header id="header" class="flexible">
 		<div class="main-holder">
 			<div class="top-holder">
 				<strong class="logo"><a href="#">Optima</a></strong>
@@ -382,14 +384,19 @@
 							<dd><strong class="price-summary">15 590<em> руб</em></strong></dd>
 							<dt>Доставка:</dt>
 							<dd>бесплатно</dd>
-							<dt class="bonus-convert_title">Бонусами:</dt>
+							<dt class="bonus-convert_title">
+								<span class="info-label">
+									<em class='tooltip'>Рыбным текстом называется текст, служащий для временного наполнения макета в публикациях или производстве веб-сайтов, пока финальный текст еще не создан. </em>
+								</span>
+								Бонусами:
+							</dt>
 							<dd class="convert-holder">
 								<input class="bonus-convert" type="text" value="200">
 								=
 								<strong class="price-summary money-convert">600<em> руб</em></strong>
-								<span class="info-label">
-									<em class='tooltip'>Рыбным текстом называется текст, служащий для временного наполнения макета в публикациях или производстве веб-сайтов, пока финальный текст еще не создан. </em>
-								</span>
+								<!--<span class="info-label">-->
+									<!--<em class='tooltip'>Рыбным текстом называется текст, служащий для временного наполнения макета в публикациях или производстве веб-сайтов, пока финальный текст еще не создан. </em>-->
+								<!--</span>-->
 							</dd>
 							<dt class="payable">К оплате:</dt>
 							<dd class="payable">
