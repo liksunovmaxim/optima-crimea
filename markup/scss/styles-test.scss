@@ -11529,13 +11529,19 @@ a.add-company {
 	transform: translateX(-50%);
 	transition: all 0s;
 	.block-view & {
-		top: -231px;
+		//top: -231px;
+		top:auto;
+		bottom:calc(100% + 25px);
 	}
 	.list-view & {
-		top: -236px;
+		//top: -236px;
+		top:auto;
+		bottom:calc(100% + 5px);
 	}
 	.table-view & {
-		top: -236px;
+		//top: -236px;
+		top:auto;
+		bottom:calc(100% + 5px);
 	}
 }
 

@@ -11872,15 +11872,18 @@ a.add-company {
 }
 
 .block-view .description-tooltip {
-  top: -231px;
+  top: auto;
+  bottom: calc(100% + 25px);
 }
 
 .list-view .description-tooltip {
-  top: -236px;
+  top: auto;
+  bottom: calc(100% + 5px);
 }
 
 .table-view .description-tooltip {
-  top: -236px;
+  top: auto;
+  bottom: calc(100% + 5px);
 }
 
 .sale-text-box .product-tooltip {
