@@ -13605,6 +13605,15 @@ div.btn-choice ul a:hover {
   max-width: 173px;
   line-height: 1.3;
   font-weight: normal;
+  font-size: 12px;
+}
+
+.bonus-block .note .note-bonus {
+  display: block;
+  margin: 0;
+  color: #000;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .bonus-block .status-name {
@@ -13830,6 +13839,10 @@ div.btn-choice ul a:hover {
 
 .bonus-block .bottom .active strong {
   color: #fb5b5b;
+}
+
+.bonus-block .bottom .active .note-bonus {
+  color: #000;
 }
 
 .bonus-block .bottom .cost strong {
